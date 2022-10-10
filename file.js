@@ -19,7 +19,7 @@
     //    var curr =  $("#reciept").children()[i];
     if($("#reciept").children()[i].childNodes[1].value != '') {
         var amount =  parseFloat($("#reciept").children()[i].childNodes[1].value);
-    }
+    }else { var amount = 0.0;}
        var sam = $("#reciept").children()[i].childNodes[3].children[0].checked;
        var andrew = $("#reciept").children()[i].childNodes[5].children[0].checked;
        var kelvin = $("#reciept").children()[i].childNodes[7].children[0].checked;
