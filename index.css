@@ -1,0 +1,49 @@
+/* tiny reset */
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+/* body */
+body{
+  background: #4d244e;
+  font-family: sans-serif;
+  border-top: 5px solid #aa8e8d;
+}
+/* title */
+h1{
+  color: #aa8e8d;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+/* tasks */
+.tasks{
+  width: 300px;
+  height: 405px;
+  position: absolute;
+  top: 20%;
+  left: 0px; 
+  right: 0px;
+  margin: 0px auto;
+}
+/* input[type=checkbox] {
+  display: none;
+} */
+
+label {
+  color: #aa8e8d;
+}
+
+p {
+    
+    color: #aa8e8d;
+}
+
+button {
+    background-color: #aa8e8d;
+    border: 0px;
+    padding: 10px;
+    color:white 
+}
