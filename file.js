@@ -1,7 +1,7 @@
 
   $(document).on('click', '.addForm', function(){
     var len = $("#reciept").children().length;
-    var html = `<div id=${len+1}> <input style="width:130px;"  type="number" placeholder="Amount e.g. 5.99"></input>
+    var html = `<div id=${len+1}> <input style="width:130px;" type="number" placeholder="Amount e.g. 5.99"></input>
     <label><input type="checkbox" class="sam" value='S' name="sam">S</label>
             <label> <input type="checkbox" class="andrew" value='A' name="andrew">A</label>
             <label> <input type='checkbox' class="kelvin" value='K' name='kelvin'>K</label></div>`;
