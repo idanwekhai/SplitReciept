@@ -11,7 +11,6 @@
 
   $(document).on('click', '.split', function(){
     var len = $("#reciept").children().length;
-    console.log(len)
     var total = 0.0;
     var t_sam = 0.0;
     var t_andrew = 0.0;
